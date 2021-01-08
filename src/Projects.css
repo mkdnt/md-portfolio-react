@@ -1,0 +1,9 @@
+.projects {
+    background-color: #FFC485;
+    border: solid black 2px;
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}

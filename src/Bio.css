@@ -1,0 +1,15 @@
+.intro {
+    background-color: #FFD6AD;
+    border: solid black 2px;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.intro-text {
+    padding: 0;
+    color: black;
+    text-shadow: -2px -2px 0 #FFC485, 2px -2px 0 #FFC485, -2px 2px 0 #FFC485, 2px 2px 0 #FFC485;
+}
