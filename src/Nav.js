@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './Nav.css'
 
 export class Nav extends Component {
@@ -6,9 +7,21 @@ export class Nav extends Component {
         return (
             <div>
                 <ul>
-                    <li>bio</li>
-                    <li>projects</li>
-                    <li>links</li>
+                    <li>
+                        <Link to='/bio' style={{ textDecoration: "inherit", color: "inherit" }}>
+                            bio
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to='/projects' style={{ textDecoration: "inherit", color: "inherit" }}>
+                            projects
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to='/links' style={{ textDecoration: "inherit", color: "inherit" }}>
+                            links
+                        </Link>
+                    </li>
                 </ul>
             </div>
         )

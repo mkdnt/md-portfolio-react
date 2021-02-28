@@ -1,11 +1,13 @@
 .HeaderAll {
     display: flex;
     flex-direction: column;
-    font-family: Helvetica-Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Rubik', Helvetica-Neue, Helvetica, Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-image: url('./images/sparkle.jpg');
-    border: solid black 2px;
+    padding: 0.1em;
+    background-image: url('./images/sparklebw.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: solid black 4px;
 }
 
 .HeaderName {
@@ -13,7 +15,6 @@
     font-size: xx-large;
     color: #FFC485;
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-
 }
  
 .HeaderTitle {
@@ -23,21 +24,3 @@
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-size: large;
 } 
-
-/* desktop */
-
-@media all and (min-width: 600px) {
-    .HeaderAll {
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        align-items: left;
-        text-align: left;
-    }
-
-    .HeaderTitle {
-        margin-top: 63px;
-        margin-left: 15px;
-    }
-
-}

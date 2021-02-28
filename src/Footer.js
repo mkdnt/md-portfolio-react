@@ -4,8 +4,9 @@ import './Footer.css'
 export class Footer extends Component {
     render() {
         return (
-            <div className='footer'>
-                <p>footer goes here</p>
+            <div className='footer-text'>
+                <h1>
+                </h1>
             </div>
         )
     }

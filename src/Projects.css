@@ -1,9 +1,6 @@
-.projects {
-    background-color: #FFC485;
-    border: solid black 2px;
-    margin: 0 5px 5px 5px;
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    flex: 1;
+.projects li {
+    margin-bottom: 0.5em;
+    /* background-color: #ADE4FF; light blue*/
+    /* background-color: #FFC485; light orange*/
+    background-color: white;
 }

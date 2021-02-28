@@ -1,15 +1,18 @@
 .intro {
-    background-color: #FFD6AD;
-    border: solid black 2px;
-    margin: 5px 0px 5px 0px;
-    padding: 5px;
+    border: solid black 4px;
+    padding: 0.5em;
     display: flex;
     flex-direction: row;
     flex: 1;
 }
 
+.intro h2 {
+    padding: -1em;
+    margin: -5px;
+}
+
 .intro-text {
-    padding: 0;
+    padding: 0.5em;
     color: black;
-    text-shadow: -2px -2px 0 #FFC485, 2px -2px 0 #FFC485, -2px 2px 0 #FFC485, 2px 2px 0 #FFC485;
+    
 }
