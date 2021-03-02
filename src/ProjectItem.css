@@ -1,10 +1,20 @@
+.project-title {
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+
 .project-card {
     border: solid 4px black;
-    
+    margin-bottom: 10px;
 }
 
 .project-details {
-    margin: 5px;
+    margin: 0.5em;
+}
+
+.site-row {
+    display: flex;
+    flex-direction: row;
 }
 
 .project-pic {
@@ -13,24 +23,18 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
-.arrow-down {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    cursor: pointer;
-    margin-left: 0.3em;
+.site {
+    border-radius: 8px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    background: #FFC485;
+    border: solid black 2px;
+    margin-right: 5px;
+    padding: 0.2em;
 }
 
-.arrow-up {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  transform: rotate(-135deg);
-  -webkit-transform: rotate(-135deg);
-  cursor: pointer;
-margin-left: 0.3em;
+.stack {
+    margin: 20px 10px 10px 10px;
+    text-align: center;
 }

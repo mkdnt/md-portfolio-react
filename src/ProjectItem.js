@@ -1,63 +1,38 @@
 import React, { Component } from 'react';
+import ImageCarousel from './ImageCarousel';
 import './ProjectItem.css';
 
-export class ProjectItem extends Component {
-    state = {
-        expanded: false,
-    }
-    
+export class ProjectItem extends Component { 
 
     render() {
-        const handleExpand = () => {
-            this.setState({
-                expanded: !this.state.expanded
-            })
-        }
-        
         const project = this.props.project
+
         
-        if (this.state.expanded === true) {
-                return (
+        
+        return (
             <section>
                 <div className='project-card'>
                 <div className='project-details'>
-                    <h1>{project.title}</h1>
-                    <p>{project.description}</p>
-                    <p>Tech Stack: {project.tech}</p>
-                    <p>Links:</p>
-                    <ul>
-                        <li><a href={project.live} style={{ textDecoration: "none", color: "inherit", fontSize: 'inherit' }}>Live App</a></li>
-                        <li><a href={project.client} style={{ textDecoration: "none", color: "inherit" }}>Client Repo</a></li>
-                        <li><a href={project.server} style={{ textDecoration: "none", color: "inherit" }}>Server Repo</a></li>
-                    </ul>
                     
-                    <p><i className="arrow-up" onClick={handleExpand}></i></p>
+                        <h1 className='project-title'>{project.title}</h1>
+                        <p>{project.intro}</p>
+                        <div className='site-row'>
+                            <div className='site'><a href={project.live} style={{ textDecoration: "none", color: "inherit", fontSize: 'inherit' }}>Live App</a></div>
+                        <div className='site'><a href={project.client} style={{ textDecoration: "none", color: "inherit" }}>gh | Client</a></div>
+                        <div className='site'><a href={this.props.project.server} style={{ textDecoration: "none", color: "inherit" }}>gh | Server</a></div>
+                        </div>
+                        <p>{project.description}</p>
                 </div>
-                <div className='project-pic'>
-                    <img src={project.image1} style={{width: '150px', height: '150px'}} alt="home" />
-                    <img src={project.image2} style={{width: '150px', height: '150px'}} alt="home" />
-                    <img src={project.image3} style={{width: '150px', height: '150px'}} alt="home" />
+                <ImageCarousel project={project} />
+                <div className='stack'>
+                    {project.reactBadge}{project.nodeBadge}{project.psqlBadge}{project.jsBadge}{project.cssBadge}{project.htmlBadge}{project.herokuBadge}{project.vercelBadge}
                 </div>
+                
             </div>
             </section>
 
         )
-        }
 
-        else {
-            return (
-            <section>
-                <div className='project-card'>   
-                <div className='project-details'>
-                    <h1>{project.title}</h1>
-                    <p>{project.description}</p>
-                    <p><i className="arrow-down" onClick={handleExpand}></i></p>
-                </div>
-                </div>
-            </section>
-
-        )
-        }
     }
 }
 

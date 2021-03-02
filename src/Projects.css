@@ -1,6 +1,7 @@
 .projects li {
-    margin-bottom: 0.5em;
+    margin: 0 auto;
     /* background-color: #ADE4FF; light blue*/
     /* background-color: #FFC485; light orange*/
     background-color: white;
+    max-width: 800px;
 }

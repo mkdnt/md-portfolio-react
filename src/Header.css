@@ -10,6 +10,7 @@
     border: solid black 4px;
 }
 
+
 .HeaderName {
     text-align: center;
     font-size: xx-large;
@@ -19,6 +20,7 @@
  
 .HeaderTitle {
     margin-top: -50px;
+    margin-left: 10px;
     text-align: center;
     color: #FFC485;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;

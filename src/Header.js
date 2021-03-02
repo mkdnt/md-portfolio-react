@@ -32,7 +32,7 @@ export class Header extends Component {
                 </Link>
             </div>
             <div className='HeaderTitle'>
-                <h3>full stack developer</h3>
+                <h3>software engineer</h3>
             </div>
             </div>
         )
