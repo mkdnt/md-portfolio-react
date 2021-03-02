@@ -18,8 +18,8 @@ export class Nav extends Component {
                         </Link>
                     </li>
                     <li>
-                        <Link to='/links' style={{ textDecoration: "inherit", color: "inherit" }}>
-                            links
+                        <Link to='/contact' style={{ textDecoration: "inherit", color: "inherit" }}>
+                            contact
                         </Link>
                     </li>
                 </ul>

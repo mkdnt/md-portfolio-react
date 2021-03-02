@@ -7,6 +7,7 @@ import Bio from './Bio'
 import Projects from './Projects'
 import Footer from './Footer'
 import './App.css'
+import Contact from './Contact';
 
 
 export class App extends Component {
@@ -24,6 +25,7 @@ export class App extends Component {
             <Route exact path='/' component={Landing}/>
             <Route exact path='/bio' component={Bio}/>
             <Route exact path='/projects' component={Projects}/>
+            <Route exact path='/contact' component={Contact} />
           </Switch>
         </main>
         <Footer />

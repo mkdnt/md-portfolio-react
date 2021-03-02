@@ -1,0 +1,59 @@
+.contact {
+    border: solid 4px black;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1em;
+}
+
+.contact h2 {
+    padding: -1em;
+    margin: -5px;
+}
+
+.contact p {
+    padding: 0.5em;
+}
+
+.icon {
+    padding: 5px;
+    width: 80px;
+}
+
+input {
+    display: block;
+    border: none;
+    border-bottom: 2px solid #FFC485;
+    margin: 2px 0;
+    background-color: transparent;
+    width: 40%;
+    padding: 0.3em;
+    font-family: inherit;
+  }
+
+
+  textarea {
+    display: block;
+    border: none;
+    border-bottom: 2px solid #FFC485;
+    margin: 2px 0;
+    background-color: transparent;
+    width: 90%;
+    height: 100px;
+    padding: 0.3em;
+    font-family: inherit;
+  }
+
+  .contact-form {
+      margin-top: 30px;
+  }
+
+  button {
+    border-radius: 8px;
+    width: 80px;
+    height: 25px;
+    text-align: center;
+    background: #FFC485;
+    border: solid black 2px;
+    margin-top: 5px;
+    padding: 0.2em;
+  }
