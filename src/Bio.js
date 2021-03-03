@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './Bio.css'
 import dogs from './images/dogs.jpg';
 import yosemite from './images/yosemite-selfie.jpg'
+import iap from './images/iap.JPG'
 
 export class Intro extends Component {
     render() {
@@ -32,9 +33,9 @@ export class Intro extends Component {
                     </p>
                 </div>
                 <div className='bio-pics'>
-                    <img src={dogs} alt='me with dogs' width='150px' style={{objectFit: 'cover'}}/>
-                    <img src={dogs} alt='me with dogs' width='150px' style={{objectFit: 'cover'}}/>
-                    <img src={yosemite} alt='me with dogs' width='150px' style={{objectFit: 'cover'}}/>
+                    <img src={iap} alt='mike by world map' width='150px' style={{objectFit: 'cover'}}/>
+                    <img src={dogs} alt='mike with dogs' width='150px' style={{objectFit: 'cover'}}/>
+                    <img src={yosemite} alt='yosemite' width='150px' style={{objectFit: 'cover'}}/>
                 </div>
                 
             </div>
