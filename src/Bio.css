@@ -1,19 +1,44 @@
-.intro {
+.bio {
     border: solid black 4px;
     padding: 0.5em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex: 1;
     margin: 0 auto;
     max-width: 800px;
 }
 
-.intro h2 {
+.bio h2 {
     padding: -1em;
     margin: -5px;
 }
 
-.intro-text {
+.bio-text {
     padding: 0.5em;
     color: black;
+}
+
+.bio-pics {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 250px;
+  }
+
+.bio-pics img {
+    margin-bottom: 5px;
+}
+
+/* desktop */
+@media all and (min-width: 600px) {
+  .bio {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .bio-pics {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+  }
 }

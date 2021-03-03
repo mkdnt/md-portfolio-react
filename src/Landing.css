@@ -1,18 +1,15 @@
-.landing-title {
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    font-size: xxx-large;
-    color: #FFC485;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+.hello {
+    border: solid 4px black;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 1em;
 }
 
+.hello h2 {
+    padding: -1em;
+    margin: -5px;
+}
 
-
-/* desktop */
-
-@media all and (min-width: 600px) {
-    .landing-title {
-        text-align: left;
-    }
+.hello p {
+    padding: 0.5em;
 }
