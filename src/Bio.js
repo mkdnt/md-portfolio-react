@@ -22,9 +22,9 @@ export class Bio extends Component {
                     </p>
                 </div>
                 <div className='bio-pics'>
-                    <img src={iap} alt='mike by world map' style={{objectFit: 'cover'}}/>
-                    <img src={dogs} alt='mike with dogs' style={{objectFit: 'cover'}}/>
-                    <img src={yosemite} alt='yosemite' style={{objectFit: 'cover'}}/>
+                    <img src={iap} alt='mike by world map'/>
+                    <img src={dogs} alt='mike with dogs' />
+                    <img src={yosemite} alt='yosemite' />
                 </div>
                 
             </div>
