@@ -15,7 +15,7 @@ export class Contact extends Component {
                     </p>
                     <div>
                         <a href="https://github.com/mkdnt" target="_blank" rel="noreferrer"><img className='icon' src={github} alt="GitHub Link"/></a>
-
+{/* eslint-disable-next-line */}
                         <a href="https://www.linkedin.com/in/mkdnt/" target="_blank" rel="noreferrer" rel="noreferrer"><img className='icon' src={linkedin} alt="LinkedIn Link"/></a>
 
                         <a href="https://drive.google.com/file/d/1c1NupViVCuv2OwSERjoyQiK4UQvubzDe/view?usp=sharing" target="_blank" rel="noreferrer"><img className='icon' src={resume} alt="LinkedIn Link" style={{marginLeft: '-15px'}}/></a>
